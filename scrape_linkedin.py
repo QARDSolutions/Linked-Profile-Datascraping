@@ -18,13 +18,13 @@ username = driver.find_element_by_class_name('input__field input__field--with-la
 
 username = driver.find_elements_by_xpath("//div[@class='login__form']/div[@class='form__input--floating']")
 # send_keys() to simulate key strokes
-username.send_keys('s777.msg@gmail.com')
+username.send_keys('Your Email Here')
 
 # locate password form by_class_name
 password = driver.find_element_by_class_name('input__field input__field--with-label')
 password = driver.find_elements_by_xpath("//div[@class='login__form']/div[@class='form__input--floating']")
 # send_keys() to simulate key strokes
-password.send_keys(9279458)
+password.send_keys('Your password here')
 
 log_in_button = driver.find_element_by_class_name('btn__primary--large from__button--floating')
 
